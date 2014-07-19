@@ -1,6 +1,6 @@
 # npm-exists 
 
-check if a module name is already registered on npm
+check if a library exists on npm
 
 [![Build Status](https://secure.travis-ci.org/parroit/npm-exists.png?branch=master)](http://travis-ci.org/parroit/npm-exists)
 

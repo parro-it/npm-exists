@@ -1,6 +1,6 @@
 {
   "name": "npm-exists",
-  "description": "check if a module name is already registered on npm",
+  "description": "check if a library exists on npm",
   "version": "0.1.0",
   "homepage": "https://github.com/parroit/npm-exists",
   "author": {
