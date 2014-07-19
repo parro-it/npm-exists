@@ -13,9 +13,9 @@ Install the module with: `npm install npm-exists --save`
 var exists = require('npm-exists');
 exists('request').then(function(moduleExists){
     if (moduleExists) {
-        console.log('already registered');
+        console.log('gosh, `request` name already taken!');
     } else {
-        console.log('gosh, request name already taken!');
+        console.log('you can register `request`');
     }
 });
 ```
