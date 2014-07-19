@@ -1,0 +1,39 @@
+{
+  "name": "npm-exists",
+  "description": "check if a module name is already registered on npm",
+  "version": "0.1.0",
+  "homepage": "https://github.com/parroit/npm-exists",
+  "author": {
+    "name": "Andrea Parodi",
+    "email": "andrea.parodi@ebansoftware.net"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/parroit/npm-exists.git"
+  },
+  "bugs": {
+    "url": "https://github.com/parroit/npm-exists/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/parroit/npm-exists/blob/master/LICENSE"
+    }
+  ],
+  "main": "lib/npm-exists",
+  "engines": {
+      "node": ">=0.10.26",
+      "npm": ">=1.4.3"
+  },
+  "scripts": {
+    "test": "gulp test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "~1.9.1",
+    "gulp": "~3.8.6",
+    "gulp-mocha": "~0.5"
+
+  },
+  "keywords": []
+}
