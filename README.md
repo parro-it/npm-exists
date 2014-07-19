@@ -7,35 +7,18 @@ check if a library exists on npm
 [![NPM version](https://badge-me.herokuapp.com/api/npm/npm-exists.png)](http://badges.enytc.com/for/npm/npm-exists) 
 
 ## Getting Started
-Install the module with: `npm install npm-exists`
+Install the module with: `npm install npm-exists --save`
 
 ```javascript
-var npm-exists = require('npm-exists');
-npm-exists.awesome(); // "hello "
+var exists = require('npm-exists');
+exists('request').then(function(moduleExists){
+    if (moduleExists) {
+        console.log('already registered');
+    } else {
+        console.log('gosh, request name already taken!');
+    }
+});
 ```
-
-## Documentation
-
-#### .awesome(name)
-
-**Parameter**: `name`
-**Type**: `String`
-**Example**: `Livia`
-
-The 'awesome' method is responsible for showing a name.
-
-How to use this method
-
-```javascript
-npm-exists.awesome('livia'); // "hello livia"
-```
-
-## Contributing
-
-Please submit all issues and pull requests to the [parroit/npm-exists](http://github.com/parroit/npm-exists) repository!
-
-## Support
-If you have any problem or suggestion please open an issue [here](https://github.com/parroit/npm-exists/issues).
 
 ## License
 
