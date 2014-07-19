@@ -15,6 +15,8 @@ chai.should();
 var npmExists = require('../lib/npm-exists.js');
 
 describe('npmExists', function(){
+    this.timeout(20000);
+    
     it('is defined', function(){
       npmExists.should.be.a('function');
     });
@@ -23,7 +25,7 @@ describe('npmExists', function(){
       npmExists('request')
           .then(function(moduleExists){
               moduleExists.should.be.equal(true);    
-              
+
           }).then(done).catch(done);
 
       
