@@ -1,7 +1,7 @@
 {
   "name": "npm-exists",
   "description": "check if a package exists on npm",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "author": {
     "name": "Andrea Parodi",
     "email": "andrea@parro.it"
@@ -27,5 +27,12 @@
     "ava": "^0.16.0",
     "xo": "^0.17.0"
   },
-  "keywords": ["package", "check", "exists", "npm", "search", "yarn"]
+  "keywords": [
+    "package",
+    "check",
+    "exists",
+    "npm",
+    "search",
+    "yarn"
+  ]
 }
