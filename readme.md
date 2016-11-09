@@ -1,25 +1,33 @@
-# npm-exists 
+# npm-exists
 
-check if a library exists on npm
+check if a package exists on npm
 
-[![Build Status](https://secure.travis-ci.org/parroit/npm-exists.png?branch=master)](http://travis-ci.org/parroit/npm-exists)
+[![Build Status](https://secure.travis-ci.org/parro-it/npm-exists.png?branch=master)](http://travis-ci.org/parro-it/npm-exists)
 
-[![NPM version](https://badge-me.herokuapp.com/api/npm/npm-exists.png)](http://badges.enytc.com/for/npm/npm-exists) 
+[![NPM module](https://img.shields.io/npm/v/npm-exists.svg)](https://npmjs.org/package/npm-exists)
+[![NPM downloads](https://img.shields.io/npm/dt/npm-exists.svg)](https://npmjs.org/package/npm-exists)
 
-## Getting Started
-Install the module with: `npm install npm-exists --save`
+# Getting Started
 
-```javascript
-var exists = require('npm-exists');
-exists('request').then(function(moduleExists){
-    if (moduleExists) {
-        console.log('gosh, `request` name already taken!');
-    } else {
-        console.log('you can register `request`');
-    }
+__Install__:
+
+```sh
+npm install npm-exists --save
+```
+
+__Usage__:
+
+```js
+const exists = require('npm-exists');
+exists('request').then(moduleExists => {
+	if (moduleExists) {
+		console.log('gosh, `request` name already taken!');
+	} else {
+		console.log('you can register `request`');
+	}
 });
 ```
 
-## License
+# License
 
-[MIT](http://opensource.org/licenses/MIT) © 2014, Andrea Parodi
+MIT © 2016, Andrea Parodi
