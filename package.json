@@ -1,41 +1,28 @@
 {
   "name": "npm-exists",
-  "description": "check if a library exists on npm",
+  "description": "check if a package exists on npm",
   "version": "0.1.0",
-  "homepage": "https://github.com/parroit/npm-exists",
   "author": {
     "name": "Andrea Parodi",
-    "email": "andrea.parodi@ebansoftware.net"
+    "email": "andrea@parro.it"
   },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/parroit/npm-exists.git"
-  },
-  "bugs": {
-    "url": "https://github.com/parroit/npm-exists/issues"
-  },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://github.com/parroit/npm-exists/blob/master/LICENSE"
-    }
-  ],
-  "main": "lib/npm-exists",
+  "repository": "parro-it/npm-exists",
+  "license": "MIT",
   "engines": {
-    "node": ">=0.10.26",
-    "npm": ">=1.4.3"
+    "node": ">=6"
   },
   "scripts": {
-    "test": "gulp test"
+    "test": "ava && xo"
   },
+  "files": [
+    "index.js"
+  ],
   "dependencies": {
-    "request": "^2.37.0",
-    "bluebird": "^2.2.2"
+    "got": "^6.6.3"
   },
   "devDependencies": {
-    "chai": "~1.9.1",
-    "gulp": "~3.8.6",
-    "gulp-mocha": "~0.5"
+    "ava": "^0.16.0",
+    "xo": "^0.17.0"
   },
   "keywords": []
 }
