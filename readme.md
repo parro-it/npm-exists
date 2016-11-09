@@ -18,13 +18,21 @@ __Usage__:
 
 ```js
 const exists = require('npm-exists');
-exists('request').then(moduleExists => {
-	if (moduleExists) {
-		console.log('gosh, `request` name already taken!');
-	} else {
-		console.log('you can register `request`');
-	}
-});
+
+exists('request')
+	.then(moduleExists => {
+		if (moduleExists) {
+			console.log('gosh, `request` name already taken!');
+		} else {
+			console.log('you can register `request`');
+		}
+	});
+
+// use custom registry:
+exists('request', 'http://localhost:5432/')
+	.then(moduleExists => {
+		console.log(moduleExists);
+	});
 ```
 
 # License
