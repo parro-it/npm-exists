@@ -42,4 +42,14 @@ describe('npmExists', function(){
       
     });
 
+    it('taobao source should works', function(done){
+      npmExists('request', 'taobao')
+          .then(function(moduleExists){
+              moduleExists.should.be.equal(true);    
+
+          }).then(done).catch(done);
+
+      
+    });
+
 });
