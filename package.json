@@ -6,6 +6,9 @@
     "name": "Andrea Parodi",
     "email": "andrea@parro.it"
   },
+  "bin": {
+    "npm-exists": "cli.js"
+  },
   "repository": "parro-it/npm-exists",
   "license": "MIT",
   "engines": {
