@@ -3,7 +3,6 @@
 check if a package exists on npm
 
 [![Build Status](https://secure.travis-ci.org/parro-it/npm-exists.png?branch=master)](http://travis-ci.org/parro-it/npm-exists)
-
 [![NPM module](https://img.shields.io/npm/v/npm-exists.svg)](https://npmjs.org/package/npm-exists)
 [![NPM downloads](https://img.shields.io/npm/dt/npm-exists.svg)](https://npmjs.org/package/npm-exists)
 
