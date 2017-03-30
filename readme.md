@@ -1,5 +1,7 @@
 # npm-exists
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/parro-it/npm-exists.svg)](https://greenkeeper.io/)
+
 check if a package exists on npm
 
 [![Build Status](https://secure.travis-ci.org/parro-it/npm-exists.png?branch=master)](http://travis-ci.org/parro-it/npm-exists)
