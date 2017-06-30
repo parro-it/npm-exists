@@ -21,7 +21,7 @@
     "index.js"
   ],
   "dependencies": {
-    "got": "^6.6.3"
+    "got": "^7.1.0"
   },
   "devDependencies": {
     "ava": "^0.18.2",
