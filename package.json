@@ -24,7 +24,7 @@
     "got": "^6.6.3"
   },
   "devDependencies": {
-    "ava": "^0.18.2",
+    "ava": "^0.21.0",
     "xo": "^0.18.1"
   },
   "keywords": [
