@@ -25,7 +25,7 @@
   },
   "devDependencies": {
     "ava": "^0.23.0",
-    "xo": "^0.18.1"
+    "xo": "^0.20.3"
   },
   "keywords": [
     "package",
