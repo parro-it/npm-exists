@@ -1,7 +1,7 @@
 {
   "name": "npm-exists",
   "description": "check if a package exists on npm",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": {
     "name": "Andrea Parodi",
     "email": "andrea@parro.it"
