@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 'use strict';
 
-const packageName = process.argv.slice(2)[0];
+const [packageName] = process.argv.slice(2);
 const npmExists = require('.');
 
 if (packageName) {
@@ -9,7 +9,6 @@ if (packageName) {
 		if (exists) {
 			process.stdout.write(`Package ${packageName} is already registered.`);
 			process.exit(0);
-			return;
 		}
 		process.stdout.write(`Package ${packageName} is available.`);
 		process.exit(1);

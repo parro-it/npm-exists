@@ -18,6 +18,7 @@
     "test": "ava && xo"
   },
   "files": [
+    "cli.js",
     "index.js"
   ],
   "dependencies": {
