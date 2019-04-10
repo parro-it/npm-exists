@@ -18,6 +18,8 @@ npm install npm-exists --save
 
 __Usage__:
 
+As module:
+
 ```js
 const exists = require('npm-exists');
 
@@ -35,6 +37,12 @@ exists('request', 'http://localhost:5432/')
 	.then(moduleExists => {
 		console.log(moduleExists);
 	});
+```
+
+As cli:
+
+```sh
+npm-exists <package name>
 ```
 
 # License
