@@ -22,7 +22,7 @@
     "index.js"
   ],
   "dependencies": {
-    "got": "^8.0.0"
+    "got": "^10.7.0"
   },
   "devDependencies": {
     "xo": "^0.20.3",
